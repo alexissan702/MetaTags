@@ -1,0 +1,30 @@
+container {
+    display: flex;
+    flex-direction: column;
+}
+body {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/db/Background_Clouds_2_%2855079272%29.jpeg");
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.items {
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: 10px;
+    font-size: 60px;
+    border-radius: 10%;
+}
+@media screen and (max-width: 600px) {
+    container {
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media screen and (min-width: 900px) {
+    container {
+        display: flex;
+        flex-direction: row;
+    }
+}
